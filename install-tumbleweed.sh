@@ -5,7 +5,7 @@ if [ $UID != 0 ]; then
   exit 1
 fi
 
-./functions.sh
+. ./functions.sh
 
 confirm_prompt "Did you install flatpak or a desktop environment (e.g. KDE/GNOME)?" || write_data_dir
 

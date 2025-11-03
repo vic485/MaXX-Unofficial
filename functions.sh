@@ -22,7 +22,7 @@ return 0
 }
 
 # Download and install MaXX
-install_maxx() {
+function install_maxx() {
   cd /tmp
   bash -c "$(curl -fsSL https://s3.ca-central-1.amazonaws.com/cdn.maxxinteractive.com/maxx-desktop-installer/MaXX-Desktop-LINUX-x86_64-2.2.0-Installer.sh)"
 }
