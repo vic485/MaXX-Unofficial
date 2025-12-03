@@ -12,13 +12,13 @@ confirm_prompt "Did you install flatpak or a desktop environment (e.g. KDE/GNOME
 echo "Installing dependencies"
 
 # Install main packages needed from official instructions
-pacman -Sy libjpeg-turbo ncurses5-compat-libs ttf-dejavu noto-fonts noto-fonts-extra
+pacman -Sy libjpeg-turbo ncurses5-compat-libs ttf-dejavu noto-fonts noto-fonts-extra --noconfirm
 
 # Install packages found missing on minimal install
-pacman -Sy libxpm gtk2 libxml2-legacy
+pacman -Sy libxpm gtk2 libxml2-legacy --noconfirm
 
 # Directory may not exist
-mkdir /usr/share/xsessions
+mkdir -p /usr/share/xsessions
 
 echo "Installing MaXX Desktop."
 install_maxx

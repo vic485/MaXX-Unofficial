@@ -6,29 +6,30 @@ lines = 35
 
 [font.normal]
 family = "JetBrains Mono"
+#family = "JetBrainsMono Nerd Font"
 style = "Regular"
 
-# Kanagawa Wave from https://gogh-co.github.io/Gogh/
+# Japanesque from https://gogh-co.github.io/Gogh/
 [colors.primary]
-foreground = "#DCD7BA"
-background = "#1F1F28"
+foreground = "#F7F6EC"
+background = "#1E1E1E"
 
 [colors.normal]
-black = "#090618"
-red = "#C34043"
-green = "#76946A"
-yellow = "#C0A36E"
-blue = "#7E9CD8"
-magenta = "#957FB8"
-cyan = "#6A9589"
-white = "#C8C093"
+black = "#343935"
+red = "#CF3F61"
+green = "#7BB75B"
+yellow = "#E9B32A"
+blue = "#4C9AD4"
+magenta = "#A57FC4"
+cyan = "#389AAD"
+white = "#FAFAF6"
 
 [colors.bright]
-black = "#727169"
-red = "#E82424"
-green = "#98BB6C"
-yellow = "#E6C384"
-blue = "#7FB4CA"
-magenta = "#938AA9"
-cyan = "#7AA89F"
-white = "#DCD7BA"
+black = "#595B59"
+red = "#D18FA6"
+green = "#767F2C"
+yellow = "#78592F"
+blue = "#135979"
+magenta = "#604291"
+cyan = "#76BBCA"
+white = "#B2B5AE"
